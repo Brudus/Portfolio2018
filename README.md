@@ -4,10 +4,12 @@ This is project that was created by me as part of the [Udacity Frontend Web Deve
 ## Usage
 This project **must not** be used to complete challenges of the Udacity Frontend Web Developer Nanodegree program. The challenges should be solved by yourself. However, this code may be used as a guidance but make sure not to copy over the source code.
 
+The images **must not** be used and are only there as a placeholder.
+
 ## Licensing
 MIT License
 
-Copyright (c) [2018] [Manuel Schulze]
+Copyright (c) 2018 Manuel Schulze
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
