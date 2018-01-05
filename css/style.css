@@ -1,4 +1,21 @@
-/* General */
+
+/* ------------------------*/
+/* ---------->>> Table of Contents <<<-----------*/
+/* ------------------------*/
+
+/* 1. Global
+/* 2. Header
+/* 3. Main
+/*	3.1 Welcome
+/*	3.2 Projects
+/* 4. Footer
+/* 5. Media Queries
+
+
+
+/* ------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* ------------------------*/
 
 a {
 	text-decoration: none;
@@ -25,7 +42,7 @@ h6,
 p,
 a {
 	color: #2d3c49;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -67,9 +84,9 @@ p {
    height: 0;
 }
 
-/* Grid */
-
-/* Header */
+/* ------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* ------------------------*/
 
 header {
 	border-bottom: 5px solid #7d97ad;
@@ -94,12 +111,14 @@ header {
 	text-align: right;
 }
 
-/* Main */
+/* ------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* ------------------------*/
 
-/* Welcome */
+/* ---------->>> Welcome <<<-----------*/
 
 .welcome {
-	background: url('../images/welcome.jpg') no-repeat fixed center;
+	background: url(../img/welcome.jpg) no-repeat fixed center;
 	display: table;
 	margin: 30px 0 50px;
 	min-height: 300px;
@@ -115,25 +134,25 @@ header {
 
 .welcome-text h3,
 .welcome-text p {
-	-webkit-text-shadow: 2px 2px 5px #000000;
-	-moz-text-shadow: 2px 2px 5px #000000;
-	-ms-text-shadow: 2px 2px 5px #000000;
-	-o-text-shadow: 2px 2px 5px #000000;
-	text-shadow:  2px 2px 5px #000000;
 	color: #fafafa;
+	-webkit-text-shadow: 2px 2px 5px #000;
+	-moz-text-shadow: 2px 2px 5px #000;
+	-ms-text-shadow: 2px 2px 5px #000;
+	-o-text-shadow: 2px 2px 5px #000;
+	text-shadow:  2px 2px 5px #000;
 }
 
 .welcome-text h3 {
-	font-weight: bolder;
 	font-size: 4.5em;
+	font-weight: bolder;
 }
 
 .welcome-text p {
-	margin-top: 10px;
 	font-size: 2.0em;
+	margin-top: 10px;
 }
 
-/* Projects */
+/* ---------->>> Projects <<<-----------*/
 
 .featured-work h3 {
 	padding-left: 10px;
@@ -162,7 +181,9 @@ header {
 	font-size: 1.5em;
 }
 
-/* Footer */
+/* ------------------------*/
+/* ---------->>> FOOTER <<<-----------*/
+/* ------------------------*/
 
 footer {
 	border-top: 5px solid #7d97ad;
@@ -189,14 +210,18 @@ footer {
 	padding: 15px 10px;
 }
 
+/* ------------------------*/
+/* ---------->>> MEDIA QUERIES <<<-----------*/
+/* ------------------------*/
+
 @media screen and (max-width: 1220px) {
 	.main-nav {
 		margin: 0 2%;
 	}
 
 	.project {
-		width: 47%;
 		margin-right: 2%;
+		width: 47%;
 	}
 
 	.project:nth-child(3) {
@@ -218,8 +243,8 @@ footer {
 	}
 
 	.project {
-		width: 96%;
 		margin-left: 2%;
+		width: 96%;
 	}
 }
 
